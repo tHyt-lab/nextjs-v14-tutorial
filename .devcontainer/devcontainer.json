@@ -17,7 +17,8 @@
 				"GitHub.copilot-chat",
 				"eamodio.gitlens",
 				"VisualStudioExptTeam.vscodeintellicode",
-				"VisualStudioExptTeam.intellicode-api-usage-examples"
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	}
