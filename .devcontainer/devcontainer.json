@@ -11,7 +11,9 @@
 				"editor.formatOnSave": true,
 				"editor.codeActionsOnSave": {
 					"quickfix.biome": "explicit",
-					"source.organizeImports.biome": "explicit"
+					"source.removeUnusedImports": "explicit",
+					"source.organizeImports.biome": "explicit",
+					"source.fixAll.eslint": "explicit"
 				}
 			},
 			"extensions": [
