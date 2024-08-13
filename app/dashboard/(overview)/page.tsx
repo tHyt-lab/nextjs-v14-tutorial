@@ -1,5 +1,4 @@
-import { fetchCardData, fetchLatestInvoices } from "@/app/lib/data";
-import CardWrapper, { Card } from "@/app/ui/dashboard/cards";
+import CardWrapper from "@/app/ui/dashboard/cards";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import { lusitana } from "@/app/ui/fonts";
@@ -9,7 +8,12 @@ import {
 	RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
 import clsx from "clsx";
+import type { Metadata } from "next";
 import { Suspense } from "react";
+
+export const metadata: Metadata = {
+	title: "Home",
+};
 
 export default async function Page() {
 	return (
